@@ -22,3 +22,5 @@ Then change into the project root and run the two process:
     > cd throttling_smtp_proxy
     > celery -A base worker
     > python proxy_server.py
+
+Only requirement is `celery`, install with `pip install -r requirements.txt`
